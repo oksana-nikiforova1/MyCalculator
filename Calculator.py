@@ -1,12 +1,12 @@
 # Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
-    return x + y
+def add(variable_1, variable_2):
+    return variable_1 + variable_2
 
 # This function subtracts two numbers
-def subtract(x, y):
-    return x - y
+def subtract(variable_1, variable_2):
+    return variable_1 - variable_2
 
 print("Select operation.")
 print("1.Add")
@@ -15,7 +15,7 @@ print("2.Subtract")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2'):
